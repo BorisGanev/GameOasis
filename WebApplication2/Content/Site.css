@@ -1,0 +1,76 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-image: url("../Images/oasis.jpg");
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+.jumbotron 
+{
+    -ms-opacity: 0.7;
+    opacity: 0.7;
+}
+
+.imageSetting 
+{
+    padding-top: 20px;
+}
+
+.grayBox 
+{
+  background-color: #9b8383;
+  -ms-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 140px;
+  border-radius: 40px;
+  padding: 15px 30px 0;
+}
+
+.newsImage 
+{
+    width: 270px;
+    height: 270px;
+    padding-top: 20px;    
+}
+
+.catalogImage 
+{
+    
+    width: 270px;
+    height: 350px;
+    padding-top: 20px; 
+}
+
+h2 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+
+h2 { 
+   position: absolute; 
+   top: 180px; 
+   left: 0; 
+   width: 100%; 
+}
