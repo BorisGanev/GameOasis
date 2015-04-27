@@ -6,17 +6,11 @@ using System.Web.Mvc;
 
 namespace WebApplication2.Controllers
 {
-    public class HomeController : Controller
+    public class NewsDirectoryController : Controller
     {
-        public ActionResult Index()
+        public ActionResult BloodborneNews()
         {
             return View();
         }
-
-        public ActionResult GameCatalog()
-        {
-            return View();
-        }
-
     }
 }

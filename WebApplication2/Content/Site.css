@@ -1,7 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
-    background-image: url("../Images/oasis.jpg");
+    background-image: url("../Images/Desert Oasis Seamless.jpg");
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -32,6 +32,11 @@ textarea {
 .imageSetting 
 {
     padding-top: 20px;
+}
+
+.spacingprop 
+{
+    padding-left: 50px;    
 }
 
 .grayBox 
@@ -73,4 +78,43 @@ h2 {
    top: 180px; 
    left: 0; 
    width: 100%; 
+}
+
+.left_part .phd_students {
+    display: block;
+    padding: 20px 0px 10px;
+}
+
+.left_part {
+    
+    background: none repeat scroll 0% 0% #343335;
+    padding: 25px 20px 15px 22px;
+}
+
+.whitefonter {
+    font-size: 12px;
+color: #FFF;
+display: block;
+}
+
+
+.full
+{
+    height: 100%
+     
+}
+
+.buttonfix 
+{
+    width: 1110px;
+    height: 52px;   
+}
+
+.navBarBG {
+    width: 100%;
+    height: 68px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("http://cdn.dota2.com/apps/dota2/images/blogfiles/2014/header_bg.jpg");
+    text-align: center;
 }

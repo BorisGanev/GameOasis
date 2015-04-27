@@ -159,14 +159,18 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\GameDirectoryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\MemberController.cs" />
+    <Compile Include="Controllers\NewsDirectoryController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Member.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -185,6 +189,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Images\bloodbornenews.jpg" />
     <Content Include="Images\bloodOnClick.jpg" />
+    <Content Include="Images\Desert Oasis Seamless.jpg" />
     <Content Include="Images\dota2Click.jpg" />
     <Content Include="Images\dota2screen1.jpg" />
     <Content Include="Images\dota2screen2.jpeg" />
@@ -197,6 +202,7 @@
     <Content Include="Images\gamespotReviewThumb255.png" />
     <Content Include="Images\ginkotest.jpg" />
     <Content Include="Images\gtavimg.jpg" />
+    <Content Include="Images\header_bg.jpg" />
     <Content Include="Images\ignReviewThumb.png" />
     <Content Include="Images\ignReviewThumb255.png" />
     <Content Include="Images\kentest.jpg" />
@@ -268,6 +274,8 @@
     <Content Include="Views\Home\GameCatalog.cshtml" />
     <Content Include="Views\GameDirectory\Dota2.cshtml" />
     <Content Include="Views\NewsDirectory\BloodborneNews.cshtml" />
+    <Content Include="Views\Member\Create.cshtml" />
+    <Content Include="Views\Member\Confirmation.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
